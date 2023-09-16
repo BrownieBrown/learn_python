@@ -35,9 +35,31 @@ journey.
     - Finding the Peak of a Mountain Array
     - _...and more challenges related to binary search!_
 
+#### 🔮 Depth-First Search (DFS)
+
+- **Main Implementation**: A traversal algorithm that explores as far as possible along each branch before backtracking.
+  Primarily used for tree and graph traversal.
+
+- **Challenges**:
+    - Checking if a tree is balanced
+    - Counting visible nodes in a tree
+    - _...and more challenges related to DFS!_
+
 ### 🛠️ Data Structures
 
-_Coming soon!_
+#### 🌲 Trees
+
+- **Binary Tree**: A tree in which each node has at most two children, referred to as the left child and the right
+  child.
+- **Binary Search Tree (BST)**: A binary tree where nodes are ordered. Each node's left subtree contains only nodes with
+  values less than the node's value, and its right subtree only nodes with values greater than the node's value.
+- **Balanced Binary Trees**: These trees ensure that the depth of the two subtrees of every node never differs by more
+  than one.
+
+- **Challenges**:
+    - Tree traversal (In-order, Pre-order, Post-order)
+    - Finding max depth of a tree
+    - _...and more challenges related to trees!_
 
 ## 🚀 Getting Started
 
