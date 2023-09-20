@@ -56,6 +56,15 @@ journey.
 - **Balanced Binary Trees**: These trees ensure that the depth of the two subtrees of every node never differs by more
   than one.
 
+#### 🌲 Binary Search Trees
+
+- **Find**: Searches for a value in the BST. If the value is found, it returns `True`, otherwise `False`.
+- **Insert**: Inserts a value into the BST.
+  If the value already exists, it will simply traverse the tree without adding a duplicate.
+
+> _Note: The binary search tree operations make certain assumptions for simplicity: no duplicates are allowed, and the
+tree does not auto-balance itself._
+
 - **Challenges**:
     - Tree traversal (In-order, Pre-order, Post-order)
     - Finding max depth of a tree
