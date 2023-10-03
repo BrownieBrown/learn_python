@@ -15,7 +15,7 @@ def num_steps(target_combo: str, trapped_combos: List[str]) -> int:
     # Convert the list of trapped_combos to a set for O(1) lookups.
     trapped_combo_set = set(trapped_combos)
 
-    # Initialize steps dictionary with the initial state and a BFS queue.
+    # Initialize steps dictionary with initial state and a BFS queue.
     steps = {"0000": 0}
     bfs_queue = deque(["0000"])
 
